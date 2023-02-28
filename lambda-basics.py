@@ -106,7 +106,7 @@ class LambdaWrapper:
 
         return role, True
 
-    # snippet-start:[python.example_code.lambda.GetFunction]
+    # test snippet-start:[python.example_code.lambda.GetFunction]
     def get_function(self, function_name):
         """
         Gets data about a Lambda function.
