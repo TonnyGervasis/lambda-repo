@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 
 
 # test snippet-start:[python.example_code.python.LambdaWrapper.full]
-# snippet-start:[python.example_code.python.LambdaWrapper.decl]
+# test snippet-start:[python.example_code.python.LambdaWrapper.decl]
 class LambdaWrapper:
     def __init__(self, lambda_client, iam_resource):
         self.lambda_client = lambda_client
