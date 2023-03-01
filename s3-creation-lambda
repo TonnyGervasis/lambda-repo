@@ -4,7 +4,7 @@ def lambda_handler(event, context):
     # Replace the bucket_name with the name you want to give your S3 bucket
     bucket_name = "my-s3-bucket"
 
-    # Create an S3 client
+    # test Create an S3 client
     s3 = boto3.client('s3')
 
     # Create the S3 bucket
